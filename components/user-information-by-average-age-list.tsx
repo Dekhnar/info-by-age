@@ -83,7 +83,7 @@ const UserInformationByAverageAgeList: React.FC<UserInformationByAverageAgeListP
   return (
     <div className="rounded overflow-hidden shadow m-6">
       <h3 className="capitalize text-heading text-center font-semibold px-4 py-3 bg-white border-b border-gray-200">
-        Age split by {selectedInformation}
+        {selectedInformation} by Age
       </h3>
       <Table
         //@ts-ignore
