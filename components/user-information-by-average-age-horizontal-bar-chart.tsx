@@ -35,7 +35,7 @@ const UserInformationByAverageAgeHorizontalBarChart: React.FC = () => {
     () =>
       sortBy(
         informations.map((information) => ({ ...information })),
-        "average"
+        "count"
       ),
     [informations]
   )
